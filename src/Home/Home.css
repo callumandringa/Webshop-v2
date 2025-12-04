@@ -1,0 +1,46 @@
+*,*::before,*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+
+.home-banner{
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #7ecc1e 0%, #cfc623 100%);
+}
+
+.specials{
+    
+    text-align: center;
+}
+.hero-section {
+  text-align: center;
+    padding: 50px 20px;
+}
+
+.specials-articles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: 400px;
+     
+}
+
+.special-item {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 300px;
+    height: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
